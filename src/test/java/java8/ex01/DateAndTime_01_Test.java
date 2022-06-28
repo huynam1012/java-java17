@@ -18,7 +18,7 @@ public class DateAndTime_01_Test {
 	public void test_date() {
 
 		// TODO modifier les paramètres du constructeur pour que le test soit passant
-		Date date = new Date(0, 0, 0, 0, 0, 0);
+		Date date = new Date(117, 2, 24, 1, 2, 3);
 
 		assertThat(date.toString(), is("Fri Mar 24 01:02:03 CET 2017"));
 
